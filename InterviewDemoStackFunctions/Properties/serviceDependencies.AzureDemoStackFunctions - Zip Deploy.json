@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/AzureDemoStackFunctions/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_A26F127666, /subscriptions/dc249d00-36b8-4efa-a28f-da93ceb46281/resourceGroups/azuredemostack/providers/Microsoft.Web/sites/AzureDemoStackFunctions/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_F12F3748E2",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/demostackfilestorage",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage",
+      "dynamicId": null
+    }
+  }
+}
